@@ -125,7 +125,7 @@ class Frame_apartamentos (tk.Frame):
         self.lista_apartamentos = listar_apartamento()
         self.lista_apartamentos.reverse()
 
-        self.tabla = ttk.Treeview(self, 
+        self.tabla = ttk.Treeview(self, height=10,
         column = ('Direccion', 'Numero_Apartamento', 'Matricula_inmobiliaria','Ficha_Catastral'))
         self.tabla.grid(row=5, column=0, columnspan=4, sticky='nse')
 

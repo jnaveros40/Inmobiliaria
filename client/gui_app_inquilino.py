@@ -409,7 +409,7 @@ class Frame_inquilino (tk.Frame):
         self.boton_Editar.config(width=20, font=('Times New Roman',12,'bold'),
                                                 fg = '#DAD5D6', bg='#158645',
                                                 cursor='hand2', activebackground='#35BD6F')
-        self.boton_Editar.grid(row=28,column=0, padx=10,pady=10)    
+        self.boton_Editar.grid(row=28,column=1, padx=10,pady=10)    
 
     def seleccionar_apartamento(self):
         try:
